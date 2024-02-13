@@ -42,47 +42,47 @@ body {
     background-color: #000;
 }
 
-li.game{
+.game{
     padding-left: 3px;
     padding-right: 3px;
 }
 
-li.game-top{ 
-    border-bottom:1px solid #aaa; 
-}
-
-li.win-top{ 
+.win-top{ 
     border-top:1.4px solid #fff; 
 }
 
-li.win-bottom{ 
+.win-bottom{ 
     border-bottom:1.4px solid #fff; 
 }
 
-li.win-right{ 
+.win-right{ 
     border-right:1.4px solid #fff;
     min-height:40px;
     height: 80px;
 }
 
-li.win-left{ 
+.win-left{ 
     border-left:1.4px solid #fff;
     min-height:40px;
     height: 80px;
 }
 
-li.game-spacer{ 
+.game-spacer{ 
     border-right:1px solid #aaa;
     min-height:40px;
     height: 80px;
 }
 
-li.game-spacerr{ 
+.game-spacerr{ 
     border-left:1px solid #aaa;
     min-height:40px;
     height: 80px;
 }
 
-li.game-bottom{ 
+.game-top{ 
     border-top:1px solid #aaa;
+}
+
+.game-bottom{ 
+    border-bottom:1px solid #aaa; 
 }
