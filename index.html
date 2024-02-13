@@ -3,20 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BRACKET</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Bracket</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div id="container">
-        <svg></svg>
-          <div id="labels"></div>
-    </div>
-         	
-    <script src="//d3js.org/d3.v4.min.js"></script>
-    <script src="https://d3js.org/d3-path.v1.min.js"></script>
-    <script src="https://d3js.org/d3-shape.v1.min.js"></script>
-      
-    <script src="script.js"></script>
+<body class="bg-black">
+    <header class="p-3 mx-auto">
+        <h1 class="my-6 text-white text-center text-base md:text-xl lg:text-4xl font-bold uppercase relative z-10">Tournament <br>Mobile Legend Bang Bang</h1>
+
+        <div class="grid lg:grid-rows-9 lg:grid-flow-col">
+
+            <div class="bg-blue-500 p-3 m-1 flex items-center rounded-md gap-3">
+                <div class="w-6 h-6 bg-cover">
+                    <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                </div>
+                <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                <div class="grow"></div>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+            </div>
+            <div class="hidden lg:block border-r-2 border-t-2 border-white p-3"></div>
+            <div class="hidden lg:block border-r-2 border-b-2 border-gray-500 p-3"></div>
+            <div class="bg-blue-500 p-3 m-1 flex items-center rounded-md gap-3">
+                <div class="w-6 h-6 bg-cover">
+                    <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                </div>
+                <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                <div class="grow"></div>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+            </div>
+            <div class="grid grid-rows-subgrid gap-4 row-span-2">
+                <div class="row-start-2 bg-blue-500 p-3 m-1 flex items-center rounded-md gap-3">
+                    <div class="w-6 h-6 bg-cover">
+                        <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                    </div>
+                    <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                    <div class="grow"></div>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                </div>
+            </div>
+            <div class="hidden lg:block border-r-2 border-t-2 border-white p-3"></div>
+            <div class="hidden lg:block border-r-2 border-b-2 border-gray-500 p-3"></div>
+            <div class="bg-blue-500 p-3 m-1 text-white flex items-center rounded-md gap-3">
+                <div class="w-6 h-6 bg-cover">
+                    <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                </div>
+                <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                <div class="grow"></div>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+            </div>
+
+
+
+            <div class="grid grid-rows-subgrid gap-4 row-span-2">
+                <div class="row-start-2 bg-orange-500 p-3 m-1 flex items-center rounded-md gap-3">
+                    <div class="w-6 h-6 bg-cover">
+                        <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                    </div>
+                    <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                    <div class="grow"></div>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                </div>
+            </div>
+            <div class="hidden lg:block border-r-2 border-t-2 border-gray-500"></div>
+            <div class="hidden lg:block border-r-2 border-gray-500"></div>
+            <div class="hidden lg:block border-r-2 border-gray-500"></div>
+            <div class="hidden lg:block border-r-2 border-white"></div>
+            <div class="hidden lg:block border-r-2 border-b-2 border-white"></div>
+            <div class="grid grid-rows-subgrid gap-4 row-span-2">
+                <div class="row-start-1 bg-orange-500 p-3 m-1 flex items-center rounded-md gap-3">
+                    <div class="w-6 h-6 bg-cover">
+                        <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                    </div>
+                    <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                    <div class="grow"></div>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                </div>
+            </div>
+
+
+
+            <div class="grid grid-rows-subgrid gap-4 row-span-5 lg:border-b-2 border-white">
+                <div class="row-start-5 bg-red-500 p-3 m-1 flex items-center rounded-md gap-3">
+                    <div class="w-6 h-6 bg-cover">
+                        <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                    </div>
+                    <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                    <div class="grow"></div>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                </div>
+            </div>
+            <div class="grid grid-rows-subgrid gap-4 row-span-4"></div>
+
+
+
+
+            <div class="grid grid-rows-subgrid gap-4 row-span-4">
+                <div class="hidden lg:block row-start-4 bg-cover">
+                    <img class="w-full flex items-center justify-center object-cover" src="images/M1.png" alt="">
+                </div>
+            </div>
+            <div class="grid grid-rows-subgrid gap-4 row-span-5">
+                <div class="row-start-1 bg-cover">
+                    <h1 class="text-white font-bold text-center text-2xl mt-3 lg:mt-8 uppercase">VS</h1>
+                </div>
+            </div>
+
+
+
+            <div class="grid grid-rows-subgrid gap-4 row-span-5 lg:border-b-2 border-white">
+                <div class="row-start-5 bg-red-500 p-3 m-1 flex items-center rounded-md gap-3">
+                    <div class="w-6 h-6 bg-cover">
+                        <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                    </div>
+                    <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                    <div class="grow"></div>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                </div>
+            </div>
+            <div class="grid grid-rows-subgrid gap-4 row-span-4"></div>
+
+
+
+
+            <div class="grid grid-rows-subgrid gap-4 row-span-2">
+                <div class="row-start-2 bg-orange-500 p-3 m-1 flex items-center rounded-md gap-3">
+                    <div class="w-6 h-6 bg-cover">
+                        <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                    </div>
+                    <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                    <div class="grow"></div>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                </div>
+            </div>
+            <div class="hidden lg:block border-l-2 border-t-2 border-white p-3"></div>
+            <div class="hidden lg:block border-l-2 border-white p-3"></div>
+            <div class="hidden lg:block border-l-2 border-white p-3"></div>
+            <div class="hidden lg:block border-l-2 border-gray-500 p-3"></div>
+            <div class="hidden lg:block border-l-2 border-b-2 border-gray-500 p-3"></div>
+            <div class="grid grid-rows-subgrid gap-4 row-span-2">
+                <div class="row-start-1 bg-orange-500 p-3 m-1 flex items-center rounded-md gap-3">
+                    <div class="w-6 h-6 bg-cover">
+                        <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                    </div>
+                    <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                    <div class="grow"></div>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                </div>
+            </div>
+
+            <div class="bg-blue-500 p-3 m-1 flex items-center rounded-md gap-3">
+                <div class="w-6 h-6 bg-cover">
+                    <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                </div>
+                <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                <div class="grow"></div>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+            </div>
+            <div class="hidden lg:block border-l-2 border-t-2 border-gray-500 p-3"></div>
+            <div class="hidden lg:block border-l-2 border-b-2 border-white p-3"></div>
+            <div class="bg-blue-500 p-3 m-1 flex items-center rounded-md gap-3">
+                <div class="w-6 h-6 bg-cover">
+                    <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                </div>
+                <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                <div class="grow"></div>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+            </div>
+            <div class="grid grid-rows-subgrid gap-4 row-span-2">
+                <div class="row-start-2 bg-blue-500 p-3 m-1 flex items-center rounded-md gap-3">
+                    <div class="w-6 h-6 bg-cover">
+                        <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                    </div>
+                    <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                    <div class="grow"></div>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                    <p class="text-white border border-white rounded-md px-1">0</p>
+                </div>
+            </div>
+            <div class="hidden lg:block border-l-2 border-t-2 border-gray-500 p-3"></div>
+            <div class="hidden lg:block border-l-2 border-b-2 border-white p-3"></div>
+            <div class="bg-blue-500 p-3 m-1 flex items-center rounded-md gap-3">
+                <div class="w-6 h-6 bg-cover">
+                    <img class="w-full h-full object-cover rounded-full bg-white border border-gray-400" src="images/avatar.jpg" alt="">
+                </div>
+                <h1 class="text-white text-xs uppercase font-bold">Lorem</h1>
+                <div class="grow"></div>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+                <p class="text-white border border-white rounded-md px-1">0</p>
+            </div>
+
+        </div>
+    </header>
 </body>
 </html>
